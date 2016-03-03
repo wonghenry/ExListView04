@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/test5"
+>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="回目錄"
+        android:background="@drawable/btn_blue"
+        android:id="@+id/btnbackoutline4"
+        android:textSize="13pt"
+        android:onClick="gobackoutline4"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="(功 德 寶 山 神 咒)"
+        android:textColor="#A52A2A"
+        android:id="@+id/textView32"
+        android:textSize="15pt"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:textColor="#141414"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="南 無 佛 馱 耶 。"
+        android:id="@+id/textView33"
+        android:textSize="13pt"
+        android:layout_below="@+id/textView32"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:textColor="#141414"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="南 無 達 摩 耶 。"
+        android:id="@+id/textView34"
+        android:textSize="13pt"
+        android:layout_below="@+id/textView33"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:textColor="#141414"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="南 無 僧 伽 耶 。"
+        android:id="@+id/textView35"
+        android:textSize="13pt"
+        android:layout_below="@+id/textView34"
+        android:layout_alignLeft="@+id/textView33"
+        android:layout_alignStart="@+id/textView33" />
+
+    <TextView
+        android:textColor="#141414"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="唵。"
+        android:id="@+id/textView36"
+        android:textSize="13pt"
+        android:layout_below="@+id/textView35"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:textColor="#141414"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="悉 帝 護 嚕 嚕 。"
+        android:id="@+id/textView37"
+        android:textSize="13pt"
+        android:layout_below="@+id/textView36"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:textColor="#141414"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="悉 都 嚕 。"
+        android:id="@+id/textView38"
+        android:textSize="13pt"
+        android:layout_below="@+id/textView37"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:textColor="#141414"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="只 利 波 。"
+        android:id="@+id/textView39"
+        android:textSize="13pt"
+        android:layout_below="@+id/textView38"
+        android:layout_alignLeft="@+id/textView38"
+        android:layout_alignStart="@+id/textView38" />
+
+    <TextView
+        android:textColor="#141414"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="吉 利 婆 。"
+        android:id="@+id/textView40"
+        android:textSize="13pt"
+        android:layout_below="@+id/textView39"
+        android:layout_alignLeft="@+id/textView39"
+        android:layout_alignStart="@+id/textView39" />
+
+    <TextView
+        android:textColor="#141414"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="悉 達 哩 。"
+        android:id="@+id/textView41"
+        android:textSize="13pt"
+        android:layout_below="@+id/textView40"
+        android:layout_alignLeft="@+id/textView40"
+        android:layout_alignStart="@+id/textView40" />
+
+    <TextView
+        android:textColor="#141414"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="布 嚕 哩 。"
+        android:id="@+id/textView42"
+        android:textSize="13pt"
+        android:layout_below="@+id/textView41"
+        android:layout_alignLeft="@+id/textView41"
+        android:layout_alignStart="@+id/textView41" />
+
+    <TextView
+        android:textColor="#141414"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="娑 嚩 訶 。"
+        android:id="@+id/textView43"
+        android:textSize="13pt"
+        android:layout_below="@+id/textView42"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="播放MP3"
+        android:background="@drawable/btn_blue"
+        android:id="@+id/btnplay2"
+        android:textSize="13pt"
+        android:onClick="onMpPlay"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

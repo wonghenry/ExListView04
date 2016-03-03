@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">幸福十小咒</string>
+    <string name="action_settings">Settings</string>
+    <string name="str_wellcome">吉 祥 圓 滿</string>
+    <string name="str_wellcome2">歡 迎 使 用</string>
+    <string name="str_1">爐香讚、淨口業真言、淨意業真言、淨身業真言、安土地真言、普供養真言</string>
+    <string name="str_2">如 意 寶 輪 王 陀 羅 尼</string>
+    <string name="str_3">消 災 吉 祥 神 咒</string>
+    <string name="str_4">功 德 寶 山 神 咒</string>
+    <string name="str_5">佛 母 準 提 神 咒</string>
+    <string name="str_6">聖無量壽決定光明王陀羅尼</string>
+    <string name="str_7">藥 師 灌 頂 真 言</string>
+    <string name="str_8">觀 音 靈 感 真 言</string>
+    <string name="str_9">七 佛 滅 罪 真 言</string>
+    <string name="str_10">往 生 淨 土 神 咒</string>
+    <string name="str_11">善 女 天 咒</string>
+    <string name="str_12">補 闕 真 言</string>
+    <string name="str_13">迴 向 偈</string>
+    <string name="str_14">唸誦提醒</string>
+    <string name="str_15">關於</string>
+    <string name="str_introduction1">爐香贊是香爐點上線香，或以旃檀供養佛時，所唱讚歎「香」功德之讚辭。</string>
+    <string name="str_introduction2">可減輕惡言惡語、道人長短之業障，但平時不造口業便可不唸。</string>
+    <string name="str_introduction3">可淨化思想，並可冶療因業力所造成之頭痛。</string>
+    <string name="str_introduction4">可消減累世之業力，並可冶療因果病痛，或幫往生者做靈療，即（幫鬼冶病）效果比冶人還快。但請注意若幫人做靈療，即有可能會分擔對方之業障，或出現與對方相同之病痛，或一陣子很倒楣，諸事不順，請有此心理準備。</string>
+    <string name="str_introduction5">唸此咒後全身會散發類似菩薩身後之光暈，此光芒可淨化磁場，惡鬼遇之如針刺，痛不可當，但其若可忍受此短暫鎮痛，即可去痛冶病，全身病痛可痊癒之，因商家店面乃靠好兄弟賺十方財故不適之。</string>
+    <string name="str_introduction6">能將我們準備的供品變成很多很多，或者觀想供品取之不盡，來供養諸佛菩薩乃至法界中的一切眾生，令得滿足而起大歡喜心。</string>
+    <string name="str_introduction7">為觀世音菩薩所說，持誦此咒，能得佛的智慧，妙法，明白佛法的道理，把煩惱轉成菩提。一心念咒，到臨終能親見阿彌陀佛和觀世音菩薩率眾來迎，當即往生極樂世界。</string>
+    <string name="str_introduction8">佛在淨居天為諸天眾們所說，它的最大效用是消除災難，經中說「若誦此咒一百八遍，災難即除，吉祥隨至。」</string>
+    <string name="str_introduction9">誦此咒一遍，如禮大佛，名經、四萬五千四百遍，所造眾業，縱愈世界微塵數，應墮阿鼻地獄者，虔持此咒、臨終亦能往生西方，其功效之大可知矣。</string>
+    <string name="str_introduction10">佛在袛園會上，因哀憐眾生，易墮三塗而說，但至心持誦，能使短命眾生，福壽無量，令現世得無量福，凡有所求，無不稱遂，如如意珠一切隨心，功效很大。</string>
+    <string name="str_introduction11">出自「大乘聖無量壽決定光明王如來陀羅尼經」持誦此咒能使眾生消除短命天折，增壽吉祥，速證菩提。</string>
+    <string name="str_introduction12">出自「藥師如來本願功德經」此咒有大威德，只要虔誦，可使痛苦皆除，受諸安樂，不僅可消災且可延壽。</string>
+    <string name="str_introduction13">觀音菩薩，誓願宏深，隨感赴應，尋聲救苦，觀音菩薩的咒很多，都是隨緣而說，只要持之以恒、虔誠所至，必生感應。</string>
+    <string name="str_introduction14">出自「大方等陀羅尼經」世尊因文殊師利法王子的請求，而說過去七佛曾誦過的咒。一個人造了四重五逆罪，不僅後世受極大苦報，現世也不得平安，為了消滅罪障，最宜持誦七佛滅罪真言。</string>
+    <string name="str_introduction15">持此咒須身口意悉皆清淨，虔誠持念，即能消滅五逆十惡謗法等重罪，並常有阿彌陀佛，在其頭頂以護行人，現世享安樂，臨終往極樂。</string>
+    <string name="str_introduction16">此咒的功德，使念佛懺悔，發願回向的人，不會分散道心，早日修成，金光明三昧，破「煩惱障」、「業障」和「報障」速證菩提。</string>
+    <string name="str_introduction17">補闕真言多於修法迴向之時，作為增益修法功德，或補修法闕漏、不如法之用途，因為我們在誦經時，難免會唸錯字或唸漏字不夠圓滿，加誦「補闕真言」，以令誦經功德圓滿增上。</string>
+</resources>

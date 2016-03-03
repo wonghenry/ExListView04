@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="436dp"
+        android:background="#ffcccc"
+        android:layout_weight="0.32">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:layout_width="329dp"
+                android:layout_height="wrap_content"
+                android:text="@string/str_1"
+                android:id="@+id/button1"
+                android:textSize="12pt"
+                android:background="@drawable/btn_blue"
+                android:layout_gravity="center_horizontal"
+                android:onClick="gotoone" />
+            <Button
+                android:layout_width="326dp"
+                android:layout_height="wrap_content"
+                android:text="@string/str_2"
+                android:textSize="12pt"
+                android:background="@drawable/btn_blue"
+                android:id="@+id/button2"
+                android:layout_gravity="center_horizontal"
+                android:onClick="gototwo"/>
+            <Button
+                android:layout_width="331dp"
+                android:layout_height="wrap_content"
+                android:text="@string/str_3"
+                android:textSize="12pt"
+                android:background="@drawable/btn_blue"
+                android:id="@+id/button3"
+                android:layout_gravity="center_horizontal"
+                android:onClick="gotothree"/>
+            <Button
+                android:layout_width="329dp"
+                android:layout_height="wrap_content"
+                android:text="@string/str_4"
+                android:textSize="12pt"
+                android:id="@+id/button4"
+                android:background="@drawable/btn_blue"
+                android:layout_gravity="center_horizontal"
+                android:onClick="gotofour"/>
+            <Button
+                android:layout_width="329dp"
+                android:layout_height="wrap_content"
+                android:text="@string/str_5"
+                android:textSize="12pt"
+                android:id="@+id/button5"
+                android:background="@drawable/btn_blue"
+                android:layout_gravity="center_horizontal"
+                android:onClick="gotofive"/>
+            <Button
+                android:layout_width="329dp"
+                android:layout_height="wrap_content"
+                android:text="@string/str_6"
+                android:textSize="12pt"
+                android:id="@+id/button6"
+                android:background="@drawable/btn_blue"
+                android:layout_gravity="center_horizontal"
+                android:onClick="gotosix"/>
+            <Button
+                android:layout_width="329dp"
+                android:layout_height="wrap_content"
+                android:text="@string/str_7"
+                android:textSize="12pt"
+                android:id="@+id/button7"
+                android:background="@drawable/btn_blue"
+                android:layout_gravity="center_horizontal"
+                android:onClick="gotoseven"/>
+            <Button
+                android:layout_width="329dp"
+                android:layout_height="wrap_content"
+                android:text="@string/str_8"
+                android:textSize="12pt"
+                android:id="@+id/button8"
+                android:background="@drawable/btn_blue"
+                android:layout_gravity="center_horizontal"
+                android:onClick="gotoeight"/>
+            <Button
+                android:layout_width="329dp"
+                android:layout_height="wrap_content"
+                android:text="@string/str_9"
+                android:textSize="12pt"
+                android:id="@+id/button9"
+                android:background="@drawable/btn_blue"
+                android:layout_gravity="center_horizontal"
+                android:onClick="gotonine"/>
+            <Button
+                android:layout_width="329dp"
+                android:layout_height="wrap_content"
+                android:text="@string/str_10"
+                android:textSize="12pt"
+                android:id="@+id/button10"
+                android:background="@drawable/btn_blue"
+                android:layout_gravity="center_horizontal"
+                android:onClick="gototen"/>
+            <Button
+                android:layout_width="329dp"
+                android:layout_height="wrap_content"
+                android:text="@string/str_11"
+                android:textSize="12pt"
+                android:id="@+id/button11"
+                android:background="@drawable/btn_blue"
+                android:layout_gravity="center_horizontal"
+                android:onClick="gotoeleven"/>
+            <Button
+                android:layout_width="329dp"
+                android:layout_height="wrap_content"
+                android:text="@string/str_12"
+                android:textSize="12pt"
+                android:id="@+id/button13"
+                android:background="@drawable/btn_blue"
+                android:layout_gravity="center_horizontal"
+                android:onClick="gototwelve"/>
+            <Button
+                android:layout_width="329dp"
+                android:layout_height="wrap_content"
+                android:text="@string/str_13"
+                android:textSize="12pt"
+                android:id="@+id/button14"
+                android:background="@drawable/btn_blue"
+                android:layout_gravity="center_horizontal"
+                android:onClick="gotothirteen"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffcc"
+        android:layout_weight="3.33">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="57dp"
+            android:text="@string/str_14"
+            android:textSize="12pt"
+            android:background="@drawable/btn_blue1"
+            android:id="@+id/button16"
+            android:onClick="gotoalarm" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="56dp"
+            android:text="介紹"
+            android:textSize="12pt"
+            android:background="@drawable/btn_blue1"
+            android:id="@+id/button17"
+            android:onClick="gotointrod" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="56dp"
+            android:text="@string/str_15"
+            android:textSize="12pt"
+            android:background="@drawable/btn_blue1"
+            android:id="@+id/button18"
+            android:onClick="gotoabout" />
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="70dp"
+            android:id="@+id/imageView"
+            android:src="@drawable/flower3"/>
+    </LinearLayout>
+
+</LinearLayout>

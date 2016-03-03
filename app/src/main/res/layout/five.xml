@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/test5"
+    >
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="回目錄"
+        android:background="@drawable/btn_blue"
+        android:id="@+id/gotoeight2"
+        android:textSize="13pt"
+        android:onClick="gobackoutline5"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="(佛 母 準 提 神 咒)"
+        android:textColor="#A52A2A"
+        android:id="@+id/textView32"
+        android:textSize="15pt"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/textView34"
+        android:layout_alignStart="@+id/textView34" />
+
+    <TextView
+        android:textColor="#141414"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="稽 首 皈 依 蘇 悉 帝 。"
+        android:id="@+id/textView33"
+        android:textSize="13pt"
+        android:layout_below="@+id/textView32"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:textColor="#141414"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="頭 面 頂 禮 七 俱 胝 。"
+        android:id="@+id/textView34"
+        android:textSize="13pt"
+        android:layout_below="@+id/textView33"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:textColor="#141414"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="我 今 稱 讚 大 準 提 。"
+        android:id="@+id/textView35"
+        android:textSize="13pt"
+        android:layout_below="@+id/textView34"
+        android:layout_alignLeft="@+id/textView34"
+        android:layout_alignStart="@+id/textView34" />
+
+    <TextView
+        android:textColor="#141414"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="惟 願 慈 悲 垂 加 護 。"
+        android:id="@+id/textView36"
+        android:textSize="13pt"
+        android:layout_below="@+id/textView35"
+        android:layout_alignLeft="@+id/textView35"
+        android:layout_alignStart="@+id/textView35" />
+
+    <TextView
+        android:textColor="#141414"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="南 無 颯 哆 喃 。"
+        android:id="@+id/textView37"
+        android:textSize="13pt"
+        android:layout_below="@+id/textView36"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:textColor="#141414"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="三 藐 三 菩 陀 。"
+        android:id="@+id/textView38"
+        android:textSize="13pt"
+        android:layout_below="@+id/textView37"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:textColor="#141414"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="俱 胝 喃 。"
+        android:id="@+id/textView39"
+        android:textSize="13pt"
+        android:layout_below="@+id/textView38"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:textColor="#141414"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="怛 姪 他 。"
+        android:id="@+id/textView40"
+        android:textSize="13pt"
+        android:layout_below="@+id/textView39"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:textColor="#141414"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="唵 。 "
+        android:id="@+id/textView42"
+        android:textSize="13pt"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textView40" />
+
+    <TextView
+        android:textColor="#141414"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="準 提 娑 婆 訶 。"
+        android:id="@+id/textView43"
+        android:textSize="13pt"
+        android:layout_below="@+id/textView3"
+        android:layout_alignLeft="@+id/textView38"
+        android:layout_alignStart="@+id/textView38" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="播放MP3"
+        android:background="@drawable/btn_blue"
+        android:id="@+id/btnplay5"
+        android:textSize="13pt"
+        android:onClick="onMpPlay"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:textColor="#141414"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=" 折 戾 主 戾 。"
+        android:id="@+id/textView3"
+        android:textSize="13pt"
+        android:layout_below="@+id/textView42"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

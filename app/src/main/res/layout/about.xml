@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/test"
+    >
+
+
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="關於本程式:"
+                android:id="@+id/textView24"
+                android:textSize="13pt"
+                android:textColor="#CD0000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="佛教的十小咒主要由釋迦摩尼佛"
+                android:id="@+id/textView83"
+                android:textSize="12pt"
+                />
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="、觀世音菩薩、藥師佛等佛菩薩"
+            android:id="@+id/textView922"
+            android:textSize="12pt"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="所說。十小咒咒語凝聚了十方三"
+                android:id="@+id/textView9252"
+                android:textSize="12pt"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="世眾佛菩薩的很多功德能量，念"
+                android:id="@+id/textView92845872"
+                android:textSize="12pt"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="誦十小咒可以修到很大的功德利益。"
+                android:id="@+id/textView928458728"
+                android:textSize="12pt"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="------------------------------"
+                android:id="@+id/textView92"
+                android:textSize="13pt"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="本程式提供MP3以及唸誦提醒以"
+                android:id="@+id/textView245"
+                android:textSize="12pt"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="方便各位師兄師姐唸誦。本程"
+                android:id="@+id/textView982"
+                android:textSize="13pt"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="式音樂來自佛教基本知識"
+                android:id="@+id/textView9872"
+                android:textSize="13pt"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="https://sites.google.com/site/info334499/home"
+                android:id="@+id/textView98882"
+                android:textSize="13pt"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="如果有任何問題請您email給我"
+                android:id="@+id/textView988782"
+                android:textSize="13pt"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="wong683837@gmail.com"
+                android:id="@+id/textView9887852"
+                android:textSize="13pt"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="我將會盡快答覆您，感謝您使用本程式。"
+                android:id="@+id/textView98897852"
+                android:textSize="13pt"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

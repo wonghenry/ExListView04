@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/test5"
+    >
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="回目錄"
+        android:background="@drawable/btn_blue"
+        android:id="@+id/gotoeight2"
+        android:textSize="13pt"
+        android:onClick="gobackoutline10"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="(往 生 淨 土 神 咒)"
+        android:textColor="#A52A2A"
+        android:id="@+id/textView32"
+        android:textSize="15pt"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:textColor="#141414"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="南 無 阿 彌 多 婆 夜 。"
+        android:id="@+id/textView33"
+        android:textSize="13pt"
+        android:layout_below="@+id/textView32"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:textColor="#141414"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="哆 他 伽 哆 夜 。"
+        android:id="@+id/textView34"
+        android:textSize="13pt"
+        android:layout_below="@+id/textView33"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:textColor="#141414"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="哆 地 夜 他 。"
+        android:id="@+id/textView35"
+        android:textSize="13pt"
+        android:layout_below="@+id/textView34"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:textColor="#141414"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="阿 彌 利 都 婆 毗 。"
+        android:id="@+id/textView36"
+        android:textSize="13pt"
+        android:layout_below="@+id/textView35"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:textColor="#141414"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="阿 彌 利 哆 。 悉 耽 婆 毗 。"
+        android:id="@+id/textView37"
+        android:textSize="13pt"
+        android:layout_below="@+id/textView36"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:textColor="#141414"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="阿 彌 利 哆 。 毗 迦 蘭 帝 。"
+        android:id="@+id/textView39"
+        android:textSize="13pt"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textView37" />
+
+    <TextView
+        android:textColor="#141414"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="阿 彌 利 哆 。 毗 迦 蘭 多 。"
+        android:id="@+id/textView70"
+        android:textSize="13pt"
+        android:layout_below="@+id/textView39"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:textColor="#141414"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="伽 彌 膩 。"
+        android:id="@+id/textView72"
+        android:textSize="13pt"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textView70" />
+
+    <TextView
+        android:textColor="#141414"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="枳 多 迦 利 。"
+        android:id="@+id/textView74"
+        android:textSize="13pt"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:textColor="#141414"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="娑 婆 訶 。"
+        android:id="@+id/textView75"
+        android:textSize="13pt"
+        android:layout_below="@+id/textView74"
+        android:layout_alignRight="@+id/textView4"
+        android:layout_alignEnd="@+id/textView4" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="播放MP3"
+        android:background="@drawable/btn_blue"
+        android:id="@+id/btnplay6"
+        android:textSize="13pt"
+        android:onClick="onMpPlay"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:textColor="#141414"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=" 伽 伽 那 。"
+        android:id="@+id/textView4"
+        android:textSize="13pt"
+        android:layout_below="@+id/textView72"
+        android:layout_alignRight="@+id/textView72"
+        android:layout_alignEnd="@+id/textView72" />
+
+</RelativeLayout>
+

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/test5"
+    >
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="回目錄"
+        android:background="@drawable/btn_blue"
+        android:id="@+id/gotoeight2"
+        android:textSize="13pt"
+        android:onClick="gobackoutline9"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="(七 佛 滅 罪 真 言)"
+        android:textColor="#A52A2A"
+        android:id="@+id/textView32"
+        android:textSize="15pt"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:textColor="#141414"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="離 婆 離 婆 帝 。"
+        android:id="@+id/textView33"
+        android:textSize="13pt"
+        android:layout_below="@+id/textView32"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:textColor="#141414"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="求 訶 求 訶 帝 。"
+        android:id="@+id/textView34"
+        android:textSize="13pt"
+        android:layout_below="@+id/textView33"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:textColor="#141414"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="陀 羅 尼 帝 。"
+        android:id="@+id/textView35"
+        android:textSize="13pt"
+        android:layout_below="@+id/textView34"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:textColor="#141414"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="尼 訶 囉 帝 。"
+        android:id="@+id/textView36"
+        android:textSize="13pt"
+        android:layout_below="@+id/textView35"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:textColor="#141414"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="毘 離 尼 帝 。"
+        android:id="@+id/textView37"
+        android:textSize="13pt"
+        android:layout_below="@+id/textView36"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:textColor="#141414"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="摩 訶 伽 帝 。"
+        android:id="@+id/textView38"
+        android:textSize="13pt"
+        android:layout_below="@+id/textView37"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:textColor="#141414"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="真 靈 乾 帝 。"
+        android:id="@+id/textView39"
+        android:textSize="13pt"
+        android:layout_below="@+id/textView38"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:textColor="#141414"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="娑 婆 訶 。"
+        android:id="@+id/textView41"
+        android:textSize="13pt"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textView39" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="播放MP3"
+        android:background="@drawable/btn_blue"
+        android:id="@+id/btnplay6"
+        android:textSize="13pt"
+        android:onClick="onMpPlay"
+        android:layout_alignBottom="@+id/gotoeight2"
+        android:layout_toLeftOf="@+id/gotoeight2"
+        android:layout_toStartOf="@+id/gotoeight2" />
+
+</RelativeLayout>

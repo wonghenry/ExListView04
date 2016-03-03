@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/test5"
+    android:onClick="gobackoutline13">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="回目錄"
+        android:background="@drawable/btn_blue"
+        android:id="@+id/gotoeight2"
+        android:textSize="13pt"
+        android:onClick="gobackoutline13"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="(回 向 偈)"
+        android:textColor="#A52A2A"
+        android:id="@+id/textView32"
+        android:textSize="15pt"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:textColor="#141414"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="願以此功德 。莊嚴佛淨土 。"
+        android:id="@+id/textView33"
+        android:textSize="13pt"
+        android:layout_below="@+id/textView32"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:textColor="#141414"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="上報四重恩 。下濟三途苦 。"
+        android:id="@+id/textView34"
+        android:textSize="13pt"
+        android:layout_below="@+id/textView33"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:textColor="#141414"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="若有見聞者 。悉發菩提心 。"
+        android:id="@+id/textView35"
+        android:textSize="13pt"
+        android:layout_below="@+id/textView34"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:textColor="#141414"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="盡此一報身 。同生極樂國 。 "
+        android:id="@+id/textView36"
+        android:textSize="13pt"
+        android:layout_below="@+id/textView35"
+        android:layout_alignLeft="@+id/textView35"
+        android:layout_alignStart="@+id/textView35" />
+
+    <TextView
+        android:textColor="#141414"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="出資印贈者 。誦持流通者 。 "
+        android:id="@+id/textView37"
+        android:textSize="13pt"
+        android:layout_below="@+id/textView36"
+        android:layout_alignLeft="@+id/textView36"
+        android:layout_alignStart="@+id/textView36" />
+
+    <TextView
+        android:textColor="#141414"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="現眷咸安樂 。先亡獲超昇 。 "
+        android:id="@+id/textView38"
+        android:textSize="13pt"
+        android:layout_below="@+id/textView37"
+        android:layout_alignLeft="@+id/textView37"
+        android:layout_alignStart="@+id/textView37" />
+
+    <TextView
+        android:textColor="#141414"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="所求皆果遂 。隨願得往生 。 "
+        android:id="@+id/textView39"
+        android:textSize="13pt"
+        android:layout_below="@+id/textView38"
+        android:layout_alignLeft="@+id/textView38"
+        android:layout_alignStart="@+id/textView38" />
+
+    <TextView
+        android:textColor="#141414"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="法界諸含識 。同證無上道 。 "
+        android:id="@+id/textView41"
+        android:textSize="13pt"
+        android:layout_below="@+id/textView39"
+        android:layout_alignLeft="@+id/textView39"
+        android:layout_alignStart="@+id/textView39" />
+
+</RelativeLayout>
